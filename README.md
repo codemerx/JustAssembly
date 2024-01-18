@@ -1,6 +1,6 @@
 # JustAssembly
 
-JustAssembly is a lightweight .NET assembly diff and analysis tool built on top of the [Telerik JustDecompile Engine](https://github.com/telerik/JustDecompileEngine). As opposed to just comparing signatures, it produces a diff on all assembly contents including the code of the methods.
+JustAssembly is a lightweight .NET assembly diff and analysis tool built on top of the [Telerik JustDecompile Engine](https://github.com/codemerx/JustDecompileEngine). As opposed to just comparing signatures, it produces a diff on all assembly contents including the code of the methods.
 
 ![alt text](https://d585tldpucybw.cloudfront.net/sfimages/default-source/productsimages/justassembly/how-it-works.png)
 
@@ -37,7 +37,7 @@ You can download the latest binary version from the [Telerik website](http://www
 
 ### Before starting work on a feature or a fix, please:
 
-* Add a new issue in the [Issues](https://github.com/telerik/JustAssembly/issues) section or find an existing issue describing the problem.
+* Add a new issue in the [Issues](https://github.com/codemerx/JustAssembly/issues) section or find an existing issue describing the problem.
 * Let us know thru the issue comments that you are working on a particular issue so that we can change its status to "In Progress," alert the rest of the community and avoid duplicating efforts.
 * If choosing between more than one issues, please, start working on the one with the higher priority.
 
@@ -51,12 +51,12 @@ We'll do our best to merge pull requests within a day or two, especially if they
 
 ## How to Get Started
 
-JustAssembly uses [JustDecompileEngine](https://github.com/telerik/JustDecompileEngine) as a submodule. In order to get the submodule's code together with the main repo you need to pass `--recursive` to the `git clone` command. If you already cloned the repo in the traditional way, don't worry. First you need to initialize your local configuration file using `git submodule init`. Then use `git submodule update` to fetch all the data from [JustDecompileEngine](https://github.com/telerik/JustDecompileEngine) and check out the appropriate commit.
+JustAssembly uses [JustDecompileEngine](https://github.com/codemerx/JustDecompileEngine) as a submodule. In order to get the submodule's code together with the main repo you need to pass `--recursive` to the `git clone` command. If you already cloned the repo in the traditional way, don't worry. First you need to initialize your local configuration file using `git submodule init`. Then use `git submodule update` to fetch all the data from [JustDecompileEngine](https://github.com/codemerx/JustDecompileEngine) and check out the appropriate commit.
 
 ## Roadmap for JustAssembly
 
-For roadmap and milestones, check the [Issues](https://github.com/telerik/JustAssembly/issues) section.
+For roadmap and milestones, check the [Issues](https://github.com/codemerx/JustAssembly/issues) section.
 
 ## Feedback and Suggestions about JustAssembly
 
-If you find a bug, want to suggest a feature or discuss existing ones, please use the [Issues](https://github.com/telerik/JustAssembly/issues) section.
+If you find a bug, want to suggest a feature or discuss existing ones, please use the [Issues](https://github.com/codemerx/JustAssembly/issues) section.
